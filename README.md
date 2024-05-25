@@ -1,45 +1,45 @@
-# Aplikasi Penghitung Biaya Parkir
+# Parking Fee Calculator Application
 
-Aplikasi ini merupakan sebuah program sederhana untuk menghitung biaya parkir berdasarkan jenis kendaraan dan lama waktu parkir. Aplikasi ini dibuat menggunakan PHP dan HTML/CSS.
+This application is a simple program for calculating parking fees based on vehicle type and parking duration. The application is built using PHP and HTML/CSS.
 
-## Deskripsi
+## Description
 
-Aplikasi ini terdiri dari dua halaman utama:
+The application consists of two main pages:
 
-1. `form.php`: Halaman ini menampilkan formulir untuk memasukkan data kendaraan, seperti nomor plat, jenis kendaraan, jam masuk, dan jam keluar.
-2. `konversi.php`: Halaman ini menampilkan hasil perhitungan biaya parkir berdasarkan data yang dimasukkan pada halaman `form.php`.
+1. `form.php`: This page displays a form for entering vehicle data, such as license plate number, vehicle type, entry time, and exit time.
+2. `konversi.php`: This page displays the calculated parking fee based on the data entered on the `form.php` page.
 
-Aplikasi ini menggunakan aturan perhitungan biaya parkir sebagai berikut:
+The application uses the following parking fee calculation rules:
 
-- Mobil:
-  - 1 jam pertama: Rp 5.000
-  - Setiap jam berikutnya: Rp 3.000
+- Car:
+  - First hour: Rp 5,000
+  - Each additional hour: Rp 3,000
 
-- Motor:
-  - 1 jam pertama: Rp 3.000
-  - Setiap jam berikutnya: Rp 1.000
+- Motorcycle:
+  - First hour: Rp 3,000
+  - Each additional hour: Rp 1,000
 
-- Sepeda:
-  - 1 jam pertama: Rp 2.000
-  - Setiap jam berikutnya: Rp 500
+- Bicycle:
+  - First hour: Rp 2,000
+  - Each additional hour: Rp 500
 
-## Cara Penggunaan
+## Usage
 
-1. Buka file `form.php` pada web browser Anda.
-2. Masukkan nomor plat kendaraan, pilih jenis kendaraan, dan masukkan jam masuk dan jam keluar.
-3. Klik tombol "CETAK" untuk melihat hasil perhitungan biaya parkir.
-4. Halaman `konversi.php` akan terbuka dan menampilkan informasi jenis kendaraan, total waktu parkir, dan total biaya yang harus dibayar.
+1. Open the `form.php` file in your web browser.
+2. Enter the vehicle's license plate number, select the vehicle type, and enter the entry and exit times.
+3. Click the "SUBMIT" button to view the calculated parking fee.
+4. The `konversi.php` page will open and display the vehicle type, total parking time, and total fee to be paid.
 
-## Struktur File
+## File Structure
 
-Repositori ini terdiri dari tiga file utama:
+This repository consists of three main files:
 
-1. `form.php`: File yang berisi kode HTML dan form untuk memasukkan data kendaraan.
-2. `konversi.php`: File yang berisi kode PHP untuk menghitung biaya parkir dan menampilkan hasilnya.
-3. `style.css`: File yang berisi kode CSS untuk mengatur tampilan halaman web.
+1. `form.php`: This file contains the HTML and form code for entering vehicle data.
+2. `konversi.php`: This file contains the PHP code to calculate the parking fee and display the result.
+3. `style.css`: This file contains the CSS code to style the web pages.
 
-## Kontribusi
-Kami menyambut kontribusi dalam bentuk saran dan perbaikan. Untuk berkontribusi, silakan ajukan pull request.
+## Contribution
+We welcome contributions in the form of suggestions and improvements. To contribute, please submit a pull request.
 
-## Lisensi
-Proyek ini dilisensikan di bawah MIT License.
+## License
+This project is licensed under the MIT License.
