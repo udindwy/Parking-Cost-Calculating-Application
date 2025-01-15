@@ -41,5 +41,3 @@ This repository consists of three main files:
 ## Contribution
 We welcome contributions in the form of suggestions and improvements. To contribute, please submit a pull request.
 
-## License
-This project is licensed under the MIT License.
