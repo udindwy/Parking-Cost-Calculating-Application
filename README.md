@@ -39,5 +39,5 @@ This repository consists of three main files:
 3. `style.css`: This file contains the CSS code to style the web pages.
 
 ## Contribution
-We welcome contributions in the form of suggestions and improvements. To contribute, please submit a pull request.
+I welcome contributions in the form of suggestions and improvements. To contribute, please submit a pull request.
 
